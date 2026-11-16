@@ -1,46 +1,45 @@
 # Ignacio Bastos
 
-**Tech Lead y desarrollador full stack.** Llevo diez años construyendo webs, tiendas online, aplicaciones a medida, integraciones y automatizaciones para empresas. También me ocupo del diseño: interfaces e identidad visual.
+**Tech Lead & Full-Stack Developer · AI & Automation**
 
-*Tech Lead & full-stack developer. Web, e-commerce, custom software, systems integration and AI automation.*
+I've spent ten years building web platforms, e-commerce, custom business software and system integrations. I take products from architecture to production, then keep them running. I care about the parts users never see, like data models, infrastructure and failure modes, and about the interface they do see.
 
-🌐 [ignaciobastos.com](https://ignaciobastos.com) · 🏢 [Softuo](https://softuo.com) · ✉️ ignacio@softuo.com
+🌐 [ignaciobastos.com](https://ignaciobastos.com) · ✉️ ignacio@softuo.com
 
 ---
 
-### Qué hago
+### What I've built recently
 
-- **Automatización e integración de sistemas.** Conecto plataformas mediante APIs y webhooks, monto flujos con n8n y añado IA donde ahorra trabajo de verdad.
-- **Desarrollo web y comercio electrónico.** Hago frontend, backend, bases de datos e infraestructura en la nube, con WordPress, WooCommerce, Shopify o desarrollo a medida.
-- **Diseño de producto.** Me ocupo de la interfaz, la experiencia de uso y la identidad visual, para que lo que funciona también se entienda.
+**Multi-tenant booking & ordering SaaS** *(Softuo, private repo)*
+Three products on one platform: table reservations for restaurants, appointment scheduling, and a QR digital menu with a visual editor. I designed and built it solo.
+- Serverless backend: Python 3.12 on AWS Lambda behind an HTTP API, with DynamoDB, Cognito auth (roles and up to 5 users per business), S3 media, and SES email. All infrastructure is defined in CloudFormation.
+- An availability engine handles split opening hours, closures per business or per staff member, buffers between services, lead times and capacity per time slot. It is unit-tested, and its JS twin powers the public demos.
+- Scheduled reminders run on EventBridge, alongside per-tenant quotas and abuse limits.
+- Self-service onboarding: sign-up, contract e-signature with an email verification code, Stripe payment and automatic activation.
+- Each tenant gets a privacy policy generated from its own data, plus share previews (Open Graph images) for every public page.
 
-### Softuo
+**Cognitive stimulation platform** *(in pilot, private repo)*
+A web app for therapists and older adults: 14 games with three difficulty levels, guided sessions, results and reports, and home access.
+- Next.js 15, TypeScript, Prisma and PostgreSQL 17, with Caddy, all in Docker Compose on AWS Lightsail.
+- It installs as a PWA and keeps working offline (up to 8 h) on tablets, then syncs when the connection returns.
+- Playwright end-to-end tests cover accounts, accessibility and each game. Nightly database dumps run alongside instance snapshots.
+- Every game has its own written spec and an independent audit.
 
-Con [Softuo](https://softuo.com) hacemos webs, tiendas y software a medida para negocios, y mantenemos tres programas propios:
+**Marketing site & content pipeline** *(Softuo, private repo)*
+A static site generator in Python with built-in SEO checks: canonical URLs, structured data, a sitemap, a news sitemap and an RSS feed. The build fails on any warning. Deploys go to AWS Amplify.
 
-| Programa | Para quién | Qué hace |
-|---|---|---|
-| **Carta digital** | Restaurantes, bares y cafeterías | Carta con QR que el local edita desde el móvil, con alérgenos y platos agotados. |
-| **Reservas de mesa** | Restaurantes | Reservas online por turnos con control de aforo y recordatorio por correo. |
-| **Agenda online** | Negocios con cita previa | Citas, equipo, horarios y recordatorios, desde un panel propio. |
+### Open source
 
-Su código es privado, porque es el producto. Las demos se podrán probar en softuo.com sin registrarse.
+**[FreeSoon](https://github.com/ignaciobastos/freesoon)**. A free WordPress plugin for "coming soon" and maintenance pages. It offers live visual editing, image or video backgrounds, countdowns and optional contact forms. No paid tier, ads or telemetry. GPL-2.0.
 
-### Otros proyectos
+### Toolbox
 
-- **Plataforma de estimulación cognitiva en gallego** (en pruebas). 14 juegos con tres niveles de dificultad, sesiones guiadas con informes de resultados y uso desde casa, también sin conexión en tablet. Next.js, PostgreSQL y Docker en AWS.
-
-### Código abierto
-
-- **[FreeSoon](https://github.com/ignaciobastos/freesoon).** Plugin gratuito de WordPress para páginas de «próximamente» y de mantenimiento: se edita en vista previa en directo, admite fondos de imagen o vídeo, cuenta atrás y formulario opcional. No tiene versión de pago, publicidad ni telemetría. Licencia GPL.
-
-### Herramientas
-
-- **Lenguajes:** JavaScript, TypeScript, PHP, Python, SQL
+- **Languages:** TypeScript, JavaScript, Python, PHP, SQL
 - **Frontend:** React, Next.js, Tailwind CSS, Vite
-- **Backend:** Node.js, Laravel, FastAPI, REST, OAuth 2.0, webhooks
-- **Datos:** PostgreSQL, MySQL, DynamoDB, Supabase, Prisma
-- **Nube:** AWS (Lambda, Amplify, DynamoDB, Cognito, SES, Lightsail), Cloudflare, Docker, GitHub Actions
-- **CMS y tiendas:** WordPress, WooCommerce, Shopify
-- **IA y automatización:** n8n, Claude API, OpenAI API, Gemini API
-- **Diseño:** Figma, Adobe Photoshop, Blender
+- **Backend:** Node.js, FastAPI, Laravel, REST, OAuth 2.0, webhooks
+- **Data:** PostgreSQL, MySQL, DynamoDB, Prisma, Supabase
+- **Cloud & DevOps:** AWS (Lambda, API Gateway, DynamoDB, Cognito, S3, SES, EventBridge, CloudFormation, Amplify, Lightsail), Docker, Cloudflare, GitHub Actions
+- **Testing:** Playwright, unit testing
+- **CMS & e-commerce:** WordPress, WooCommerce, Shopify
+- **AI & automation:** Claude API, OpenAI API, Gemini API, n8n
+- **Design:** Figma, Photoshop, Blender
