@@ -24,7 +24,7 @@ Con [Softuo](https://softuo.com) hacemos webs, tiendas y software a medida para 
 | **Reservas de mesa** | Restaurantes | Reservas online por turnos con control de aforo y recordatorio por correo. |
 | **Agenda online** | Negocios con cita previa | Citas, equipo, horarios y recordatorios, desde un panel propio. |
 
-Su código es privado, porque es el producto. Las demos son públicas y se pueden probar sin registrarse.
+Su código es privado, porque es el producto. Las demos se podrán probar en softuo.com sin registrarse.
 
 ### Código abierto
 
@@ -32,11 +32,11 @@ Su código es privado, porque es el producto. Las demos son públicas y se puede
 
 ### Herramientas
 
-**Lenguajes:** JavaScript, TypeScript, PHP, Python, SQL
-**Frontend:** React, Next.js, Tailwind CSS, Vite
-**Backend:** Node.js, Laravel, FastAPI, REST, OAuth 2.0, webhooks
-**Datos:** PostgreSQL, MySQL, DynamoDB, Supabase, Prisma
-**Nube:** AWS (Lambda, Amplify, DynamoDB, Cognito, SES, Lightsail), Cloudflare, Docker, GitHub Actions
-**CMS y tiendas:** WordPress, WooCommerce, Shopify
-**IA y automatización:** n8n, Claude API, OpenAI API, Gemini API
-**Diseño:** Figma, Adobe Photoshop, Blender
+- **Lenguajes:** JavaScript, TypeScript, PHP, Python, SQL
+- **Frontend:** React, Next.js, Tailwind CSS, Vite
+- **Backend:** Node.js, Laravel, FastAPI, REST, OAuth 2.0, webhooks
+- **Datos:** PostgreSQL, MySQL, DynamoDB, Supabase, Prisma
+- **Nube:** AWS (Lambda, Amplify, DynamoDB, Cognito, SES, Lightsail), Cloudflare, Docker, GitHub Actions
+- **CMS y tiendas:** WordPress, WooCommerce, Shopify
+- **IA y automatización:** n8n, Claude API, OpenAI API, Gemini API
+- **Diseño:** Figma, Adobe Photoshop, Blender
