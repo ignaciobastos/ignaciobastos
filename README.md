@@ -2,7 +2,7 @@
 
 **Tech Lead & Full-Stack Developer · AI & Automation**
 
-I've spent ten years building web platforms, e-commerce, custom business software and system integrations. I take products from architecture to production, then keep them running. I care about the parts users never see, like data models, infrastructure and failure modes, and about the interface they do see.
+I've spent 15+ years building web platforms, e-commerce, custom business software and system integrations. I take products from architecture to production, then keep them running. I care about the parts users never see, like data models, infrastructure and failure modes, and about the interface they do see.
 
 🌐 [ignaciobastos.com](https://ignaciobastos.com) · ✉️ ignacio@softuo.com
 
