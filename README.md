@@ -26,6 +26,10 @@ Con [Softuo](https://softuo.com) hacemos webs, tiendas y software a medida para 
 
 Su código es privado, porque es el producto. Las demos se podrán probar en softuo.com sin registrarse.
 
+### Otros proyectos
+
+- **Plataforma de estimulación cognitiva en gallego** (en pruebas). 14 juegos con tres niveles de dificultad, sesiones guiadas con informes de resultados y uso desde casa, también sin conexión en tablet. Next.js, PostgreSQL y Docker en AWS.
+
 ### Código abierto
 
 - **[FreeSoon](https://github.com/ignaciobastos/freesoon).** Plugin gratuito de WordPress para páginas de «próximamente» y de mantenimiento: se edita en vista previa en directo, admite fondos de imagen o vídeo, cuenta atrás y formulario opcional. No tiene versión de pago, publicidad ni telemetría. Licencia GPL.
