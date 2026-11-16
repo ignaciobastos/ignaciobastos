@@ -8,7 +8,7 @@ I've spent ten years building web platforms, e-commerce, custom business softwar
 
 ---
 
-### What I've built recently
+### Some things I've built recently
 
 **Multi-tenant booking & ordering SaaS** *(Softuo, private repo)*
 Three products on one platform: table reservations for restaurants, appointment scheduling, and a QR digital menu with a visual editor. I designed and built it solo.
